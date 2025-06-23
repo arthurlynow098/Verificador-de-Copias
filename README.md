@@ -1,2 +1,2 @@
-# Verificador-de-C-pias
+# Verificador-de-Copias
 Verifica se imagens são cópias/iguais e as divide em pastas diferentes automaticamente
