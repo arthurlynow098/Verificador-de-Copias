@@ -48,4 +48,5 @@ Pillow (PIL Fork): Essencial para abrir e manipular as imagens.
 ImageHash: A biblioteca inteligente que cria a "impressão digital" (hash) de cada imagem para a comparação.
 
 os & shutil: Para navegar pelas pastas e mover os arquivos de lugar.
+
 ![Image](https://github.com/user-attachments/assets/09497700-e770-4b77-967c-4d0c28f1047a)
