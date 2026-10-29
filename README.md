@@ -1,3 +1,9 @@
+<p align="center"><img src="https://raw.githubusercontent.com/arthurlynow098/arthurlynow098/main/assets/ars-codex-banner.png" alt="Arthur Mendes Entsev — gravura alquímica minimalista" width="100%"></p>
+
+<p align="center"><sub>☉ &nbsp; ARS CODEX &nbsp; · &nbsp; Verificador-de-Copias &nbsp; ☽</sub></p>
+
+---
+
 # Verificador de Copias
 Verificador de Cópias - Meu Organizador de Imagens
 
@@ -50,3 +56,7 @@ ImageHash: A biblioteca inteligente que cria a "impressão digital" (hash) de ca
 os & shutil: Para navegar pelas pastas e mover os arquivos de lugar.
 
 ![Image](https://github.com/user-attachments/assets/09497700-e770-4b77-967c-4d0c28f1047a)
+
+---
+
+<p align="center"><sub>☿ &nbsp; Estudo · construção · evolução &nbsp; ☿</sub><br><a href="https://github.com/arthurlynow098">Perfil</a> · <a href="https://arthurentsev.vercel.app/">Portfólio</a></p>
