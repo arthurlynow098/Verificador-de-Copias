@@ -1,6 +1,6 @@
-<p align="center"><img src="https://raw.githubusercontent.com/arthurlynow098/arthurlynow098/main/assets/ars-codex-banner.png" alt="Arthur Mendes Entsev — gravura alquímica minimalista" width="100%"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/arthurlynow098/arthurlynow098/main/assets/ars-codex-banner.png" alt="Arthur Mendes Entsev — gravura em preto e branco" width="100%"></p>
 
-<p align="center"><sub>☉ &nbsp; ARS CODEX &nbsp; · &nbsp; Verificador-de-Copias &nbsp; ☽</sub></p>
+<p align="center"><sub>Verificador-de-Copias</sub></p>
 
 ---
 
@@ -59,4 +59,4 @@ os & shutil: Para navegar pelas pastas e mover os arquivos de lugar.
 
 ---
 
-<p align="center"><sub>☿ &nbsp; Estudo · construção · evolução &nbsp; ☿</sub><br><a href="https://github.com/arthurlynow098">Perfil</a> · <a href="https://arthurentsev.vercel.app/">Portfólio</a></p>
+<p align="center"><sub>Estudo · construção · evolução</sub><br><a href="https://github.com/arthurlynow098">Perfil</a> · <a href="https://arthurentsev.vercel.app/">Portfólio</a></p>
