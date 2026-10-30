@@ -4,7 +4,7 @@
 
 <p align="center">Ferramenta desktop para localizar imagens duplicadas ou semelhantes e separar as cópias em uma pasta.</p>
 
-<p align="center"><img src="assets/docs/tags.svg" alt="Python · Tkinter · ImageHash" width="72%"></p>
+<p align="center"><img src="assets/docs/tags.svg" alt="Python · Tkinter · ImageHash" width="100%"></p>
 
 <p align="center"><a href="#visão-geral">Visão geral</a> &nbsp;·&nbsp; <a href="#recursos">Recursos</a> &nbsp;·&nbsp; <a href="#como-executar">Como executar</a></p>
 
@@ -16,11 +16,12 @@
 
 ![Mapa visual dos arquivos e responsabilidades](assets/docs/map.svg)
 
-| Área | O que você encontra | Acesso direto |
-|---|---|---|
-| **Aplicação** | Implementação da ferramenta desktop. | [Abrir aplicação →](organizador.py) |
-| **Comparação** | Consulte as rotinas de análise de imagens. | [Abrir comparação →](organizador.py) |
-| **Execução** | Dependências e instruções de uso. | [Abrir execução →](README.md) |
+<table width="100%">
+<tr><th align="left">Área</th><th align="left">O que você encontra</th><th align="left">Acesso direto</th></tr>
+<tr><td><strong>Aplicação</strong></td><td>Implementação da ferramenta desktop.</td><td><a href="organizador.py">Abrir aplicação →</a></td></tr>
+<tr><td><strong>Comparação</strong></td><td>Consulte as rotinas de análise de imagens.</td><td><a href="organizador.py">Abrir comparação →</a></td></tr>
+<tr><td><strong>Execução</strong></td><td>Dependências e instruções de uso.</td><td><a href="README.md">Abrir execução →</a></td></tr>
+</table>
 
 <a id="visão-geral"></a>
 
