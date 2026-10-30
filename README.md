@@ -1,20 +1,22 @@
 <p align="center">
-  <img src="assets/banner.png" alt="Verificador de Cópias" width="100%">
+  <img src="assets/project-animal.png" alt="Emblema de Verificador-de-Copias" width="144" height="144">
 </p>
+
+<h1 align="center">Verificador-de-Copias</h1>
+
+<p align="center">Ferramenta desktop para localizar imagens duplicadas ou semelhantes e separar as cópias em uma pasta.</p>
 
 <p align="center">
-  Ferramenta desktop em Python que localiza e isola imagens duplicadas ou visualmente similares em diretórios locais usando Hash criptográfico e Perceptual Hashing.
+  <img src="https://img.shields.io/badge/Python-C52E36?style=flat-square" alt="Python">
+  <img src="https://img.shields.io/badge/Tkinter-24272E?style=flat-square" alt="Tkinter">
+  <img src="https://img.shields.io/badge/ImageHash-24272E?style=flat-square" alt="ImageHash">
 </p>
 
-<p align="center">
-  <img alt="Python" src="https://img.shields.io/badge/Python-Desktop_App-C52E36?style=for-the-badge&logo=python&logoColor=white">
-  <img alt="Pillow & ImageHash" src="https://img.shields.io/badge/Motor-Pillow_%2B_ImageHash-11120F?style=for-the-badge">
-  <img alt="Tkinter" src="https://img.shields.io/badge/GUI-Tkinter-18181B?style=for-the-badge">
-</p>
+<p align="center"><a href="#visão-geral">Visão geral</a> &nbsp;·&nbsp; <a href="#recursos">Recursos</a> &nbsp;·&nbsp; <a href="#como-executar">Como executar</a></p>
 
-## Sobre o projeto
+---
 
-Pastas de fotos e backups acumulam facilmente centenas de arquivos repetidos — seja por downloads duplicados, seja por imagens redimensionadas que possuem nomes diferentes. O **Verificador de Cópias** nasceu para automatizar essa faxina digital sem risco de apagar acidentalmente memórias importantes.
+## Visão geral
 
 Construída em **Python** com interface gráfica **Tkinter**, a ferramenta varre o diretório escolhido, compara as imagens através de dois motores selecionáveis (cópia exata por Hash ou semelhança perceptual com tolerância ajustável) e move as duplicatas para uma subpasta organizada, registrando todo o processo em um log visual em tempo real.
 
@@ -22,7 +24,7 @@ Construída em **Python** com interface gráfica **Tkinter**, a ferramenta varre
   <img src="https://github.com/user-attachments/assets/09497700-e770-4b77-967c-4d0c28f1047a" alt="Interface do Verificador de Cópias" width="85%">
 </p>
 
-## Principais recursos
+## Recursos
 
 | Recurso | Como funciona |
 |---|---|
@@ -34,55 +36,53 @@ Construída em **Python** com interface gráfica **Tkinter**, a ferramenta varre
 
 ## Tecnologias
 
-<p>
-  <img alt="Python" src="https://img.shields.io/badge/Python_3-C52E36?style=flat-square&logo=python&logoColor=white">
-  <img alt="Tkinter" src="https://img.shields.io/badge/Tkinter_GUI-11120F?style=flat-square&logo=python&logoColor=C52E36">
-  <img alt="Pillow" src="https://img.shields.io/badge/Pillow_(PIL)-C52E36?style=flat-square&logo=python&logoColor=white">
-  <img alt="ImageHash" src="https://img.shields.io/badge/ImageHash-11120F?style=flat-square">
-</p>
-
 - **Python 3 (organizador.py)** como núcleo da aplicação;
 - **Tkinter** para a interface gráfica desktop nativa;
 - **Pillow (PIL Fork)** para abertura, decodificação e leitura de metadados das imagens;
 - **ImageHash** para cálculo de hashes perceptuais e distância de Hamming;
 - **os & shutil** para travessia segura de diretórios e movimentação de arquivos.
 
-## Arquitetura
+<details>
+<summary>Arquitetura</summary>
 
-`mermaid
+```mermaid
 flowchart LR
-    A[Pasta Selecionada pelo Usuário] --> B[Varredura de Imagens · Pillow]
+    A["Pasta Selecionada pelo Usuário"] --> B["Varredura de Imagens · Pillow"]
     B --> C{Modo de Detecção}
-    C -->|Hash Exato| D[Comparação Binária]
-    C -->|Similaridade| E[ImageHash + Limiar de Tolerância]
-    D --> F[Isolamento na Pasta de Duplicatas]
+    C -->|Hash Exato| D["Comparação Binária"]
+    C -->|Similaridade| E["ImageHash + Limiar de Tolerância"]
+    D --> F["Isolamento na Pasta de Duplicatas"]
     E --> F
-    F --> G[Relatório no Log da Interface]
-`
+    F --> G["Relatório no Log da Interface"]
+```
 
-## Estrutura do repositório
+</details>
 
-`	ext
+<details>
+<summary>Estrutura do repositório</summary>
+
+```text
 Verificador-de-Copias/
 ├── assets/
-│   ├── banner.png                  Banner principal Verificador de Cópias
-│   └── project-animal.png          Símbolo do guaxinim
+│   └── project-animal.png          Emblema do projeto
 ├── organizador.py                  Aplicação desktop completa (GUI + Motor de Hash)
 └── README.md
-`
+```
 
-## Executando o código
+</details>
+
+## Como executar
 
 1. Clone o repositório e instale as dependências de imagem:
-   `ash
+   ```bash
    git clone https://github.com/arthurlynow098/Verificador-de-Copias.git
    cd Verificador-de-Copias
    pip install Pillow ImageHash
-   `
+   ```
 2. Inicie a aplicação gráfica:
-   `ash
+   ```bash
    python organizador.py
-   `
+   ```
 3. Selecione a pasta que deseja organizar, ajuste a tolerância (ou marque **Usar Hash**) e clique em **INICIAR PROCESSAMENTO**.
 
 ## Decisões técnicas
@@ -92,4 +92,8 @@ Verificador-de-Copias/
 
 ---
 
-<p align="center"><sub>Estudo · construção · evolução</sub><br><a href="https://github.com/arthurlynow098">Perfil</a> · <a href="https://arthurentsev.vercel.app/">Portfólio</a> · <a href="https://www.linkedin.com/in/entsevarthur/">LinkedIn</a></p>
+<p align="center">
+  <a href="https://github.com/arthurlynow098">GitHub</a> &nbsp;·&nbsp;
+  <a href="https://arthurentsev.vercel.app/">Portfólio</a> &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/entsevarthur/">LinkedIn</a>
+</p>
