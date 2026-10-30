@@ -1,8 +1,6 @@
 <p align="center">
-  <img src="assets/project-animal.png" alt="Emblema de Verificador-de-Copias" width="144" height="144">
+  <img src="assets/banner-v2.png" alt="Verificador-de-Copias" width="100%">
 </p>
-
-<h1 align="center">Verificador-de-Copias</h1>
 
 <p align="center">Ferramenta desktop para localizar imagens duplicadas ou semelhantes e separar as cópias em uma pasta.</p>
 
