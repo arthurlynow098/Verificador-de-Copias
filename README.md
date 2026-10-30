@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="assets/identity/banner.png" alt="Verificador-de-Copias" width="100%">
-</p>
+<p align="center"><img src="assets/verificador-de-copias-banner.jpg" width="100%" alt="Verificador-de-Copias"></p>
 
 <p align="center">Ferramenta desktop para localizar imagens duplicadas ou semelhantes e separar as cópias em uma pasta.</p>
 
